@@ -3,6 +3,7 @@
     [
       "@babel/env",
       {
+        "modules": "umd",
         "targets": {
           "browsers": [
             /* benefit of C/S/FF/Edge only? */
