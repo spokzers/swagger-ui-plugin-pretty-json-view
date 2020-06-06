@@ -1,11 +1,12 @@
-#Pretty JSON View Plugin for Swagger UI
+# Pretty JSON View Plugin for Swagger UI 
+[![npm](https://img.shields.io/npm/v/swagger-ui-plugin-pretty-json-view?color=green&style=for-the-badge)](https://www.npmjs.com/package/swagger-ui-plugin-pretty-json-view/)
 
 This Plugin utilizes [`react-json-view`](https://github.com/mac-s-g/react-json-view) to add the ability to view response JSON in pretty format with other cool features.
 
-##Usage
+## Usage
 There are two ways to utilize this plugin
 
-#####Via npm
+##### Via npm
 Install the module with npm:
 
 ```shell script
@@ -25,7 +26,7 @@ SwaggerUI({
 })  
 ```
 
-#####Via unpkg
+##### Via unpkg
 ```js
 <script>
 <!-- Load Swagger UI -->
@@ -46,5 +47,5 @@ window.onload = function() {
 ```
 
 
-##Contributing
+## Contributing
 Feel free to open issues and pull requests that fix bugs and add functionality.
