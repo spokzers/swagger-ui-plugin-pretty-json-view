@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": [
+            /* benefit of C/S/FF/Edge only? */
+            "> 1%",
+            "last 2 versions",
+            "Firefox ESR",
+            "not dead",
+          ]
+        },
+        "useBuiltIns": "entry",
+        "corejs": "2"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
+  ]
+}
+
