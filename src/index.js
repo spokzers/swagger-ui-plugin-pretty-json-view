@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import ReactJSON from "react-json-view"
 
-const JSONViewWrapperPlugin = function(system) {
+const PrettyJSONViewPlugin = function(system) {
   return {
     wrapComponents: {
       highlightCode: (Original, system) => class WrappedHighlightCode extends Component {
@@ -62,4 +62,4 @@ const JSONViewWrapperPlugin = function(system) {
 }
 
 
-export default JSONViewWrapperPlugin
+export default PrettyJSONViewPlugin
