@@ -3,6 +3,7 @@
     [
       "@babel/env",
       {
+        "modules": "umd",
         "targets": {
           "browsers": [
             /* benefit of C/S/FF/Edge only? */
@@ -19,8 +20,7 @@
     "@babel/preset-react"
   ],
   "plugins": [
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-transform-modules-commonjs"
+    "@babel/plugin-proposal-class-properties"
   ]
 }
 
