@@ -27,13 +27,14 @@
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
+    "@babel/plugin-transform-modules-umd": "^7.10.1",
     "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/polyfill": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1"
   },
   "dependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
     "react-json-view": "^1.19.1"
   }
 }
