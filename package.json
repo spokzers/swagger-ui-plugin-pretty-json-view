@@ -5,7 +5,7 @@
   "homepage": "https://github.com/spokzers/swagger-ui-plugin-pretty-json-view",
   "main": "build/index.js",
   "scripts": {
-    "build:main": "babel src -d dist",
+    "build:main": "babel src -d build",
     "build:umd": "webpack --output-filename index.umd.js",
     "build:umd.min": "webpack --output-filename index.umd.js -p",
     "build": "npm-run-all --parallel build:*",
