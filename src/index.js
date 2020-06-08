@@ -7,12 +7,15 @@ const PrettyJSONViewPlugin = function(system) {
       highlightCode: (Original, system) => class WrappedHighlightCode extends Component {
         constructor(props) {
           super(props)
+
+          this.activeTab = this.activeTab.bind(this)
+
           this.state = {
             activeTab: "pretty",
           }
         }
 
-        activeTab = (e) => {
+        activeTab(e) {
           let { target: { dataset: { name } } } = e
 
           this.setState({
@@ -31,9 +34,10 @@ const PrettyJSONViewPlugin = function(system) {
           }
 
           let content
+
           try {
             content = JSON.parse(value)
-          } catch {
+          } catch(err) {
             content = {
               error: "can't parse JSON.  Raw result:\n\n" + value,
             }
