@@ -5,7 +5,8 @@ module.exports = {
   output: {
     path: join(__dirname, "build"),
     libraryTarget: "umd",
-    library: "PrettyJSONView"
+    library: "PrettyJSONView",
+    libraryExport: 'default'
   },
   devtool: "source-map",
   module: {

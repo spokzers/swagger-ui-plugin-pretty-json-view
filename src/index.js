@@ -67,5 +67,3 @@ const PrettyJSONViewPlugin = function(system) {
 
 
 export default PrettyJSONViewPlugin
-
-module.exports = PrettyJSONViewPlugin
