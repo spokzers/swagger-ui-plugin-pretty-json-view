@@ -3,9 +3,9 @@ const join = require('path').join
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: join(__dirname, "build"),
+    path: join(__dirname, "umd"),
     libraryTarget: "umd",
-    library: "PrettyJSONView",
+    library: "PrettyJSONViewPlugin",
     libraryExport: 'default'
   },
   devtool: "source-map",

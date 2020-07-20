@@ -32,13 +32,14 @@ SwaggerUI({
 <!-- Load Swagger UI -->
 <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script> 
 <!-- Load the PrettyJSONViewPlugin -->
-<script src="https://unpkg.com/swagger-ui-plugin-pretty-json-view"></script>
+<script src="https://unpkg.com/swagger-ui-plugin-pretty-json-view/umd"></script>
 
 <script>
 window.onload = function() {
   SwaggerUI({
   // your options here...
   plugins: [
+    // other swagger-ui plugins
     PrettyJSONViewPlugin
   ]
 })
